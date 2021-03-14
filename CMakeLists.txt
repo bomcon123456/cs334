@@ -22,12 +22,12 @@ if(CUDA_FOUND)
   set(CUDA_NVCC_FLAGS_DEBUG ${CUDA_NVCC_FLAGS_DEBUG} "-G")
 
 
-  add_subdirectory ("Problem Sets/Problem Set 1")
-  #add_subdirectory ("Problem Sets/Problem Set 2")
-  #add_subdirectory ("Problem Sets/Problem Set 3")
-  #add_subdirectory ("Problem Sets/Problem Set 4")
-  #add_subdirectory ("Problem Sets/Problem Set 5")
-  #add_subdirectory ("Problem Sets/Problem Set 6")
+  add_subdirectory ("psets/pset1")
+  #add_subdirectory ("psets/pset2")
+  #add_subdirectory ("psets/pset3")
+  #add_subdirectory ("psets/pset4")
+  #add_subdirectory ("psets/pset5")
+  #add_subdirectory ("psets/pset6")
 
 else(CUDA_FOUND)
   message("CUDA is not installed on this system.")
